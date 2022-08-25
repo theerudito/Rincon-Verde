@@ -1,0 +1,320 @@
+.logotipo {
+  @media screen and (max-width: 320px) {
+  }
+
+  @media screen and (min-width: 375px) {
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  @media screen and (min-width: 425px) {
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1024px) {
+  }
+
+  @media screen and (min-width: 1440px) {
+  }
+
+  @media screen and (min-width: 2560px) {
+  }
+}
+
+.imageContainer {
+  @media screen and (max-width: 320px) {
+  }
+
+  @media screen and (min-width: 375px) {
+    .florUpIz {
+      position: absolute;
+      width: 100px;
+      margin-left: auto;
+      margin-top: 40px;
+      z-index: -1;
+    }
+
+    .florMeIz {
+      position: absolute;
+      width: 100px;
+      z-index: -1;
+      margin-top: 1200px;
+    }
+
+    .florDerUp {
+      position: absolute;
+      margin-left: 72%;
+      margin-top: -160px;
+      width: 100px;
+      z-index: -1;
+    }
+    .florDerM {
+      position: absolute;
+      margin-left: 72%;
+      margin-top: 350px;
+      width: 100px;
+      z-index: -1;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .florUpIz {
+      position: absolute;
+      width: 100px;
+      margin-left: auto;
+      margin-top: 40px;
+      z-index: -1;
+    }
+
+    .florMeIz {
+      position: absolute;
+      width: 100px;
+      z-index: -1;
+      margin-top: 1020px;
+    }
+
+    .florDerUp {
+      position: absolute;
+      margin-left: 70%;
+      margin-top: -160px;
+      width: 150px;
+      z-index: -1;
+    }
+    .florDerM {
+      position: absolute;
+      margin-left: 80%;
+      margin-top: 250px;
+      width: 100px;
+      z-index: -1;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1024px) {
+    .florUpIz {
+      position: absolute;
+      width: 100px;
+      margin-left: auto;
+      margin-top: 40px;
+      z-index: -1;
+    }
+
+    .florMeIz {
+      position: absolute;
+      width: 100px;
+      z-index: -1;
+      margin-top: 600px;
+    }
+
+    .florDerUp {
+      position: absolute;
+      margin-left: 92.5%;
+      margin-top: -160px;
+      width: 100px;
+      z-index: -1;
+    }
+    .florDerM {
+      position: absolute;
+      margin-left: 92.5%;
+      margin-top: 300px;
+      width: 100px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+  }
+
+  @media screen and (min-width: 2560px) {
+  }
+}
+
+.contenedorNosotros {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 0px 40px;
+}
+
+.list {
+
+  @media screen and (max-width: 320px) {
+}
+
+@media screen and (min-width: 375px) {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+
+  ul {
+    list-style: none;
+  }
+  li {
+    font-size: 12px;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background-image: url("../image/check.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-right: 5px;
+    }
+  }
+}
+
+@media screen and (min-width: 425px) {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  ul {
+    list-style: none;
+  }
+  li {
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background-image: url("../image/check.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-right: 5px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  ul {
+    list-style: none;
+  }
+  li {
+    font-size: 18px;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background-image: url("../image/check.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-right: 5px;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+@media screen and (min-width: 2560px) {
+}
+
+  
+}
+
+.formulario {
+  display: grid;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: auto auto;
+
+  input {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 10px;
+    font-size: 18px;
+    color: black;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  textarea {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    color: black;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    background-color: #bfd133;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    position: relative;
+    margin-bottom: 6px;
+    &:hover {
+      background-color: #7bbb50;
+    }
+  }
+}
+
+// @media screen and (max-width: 320px) {
+// }
+
+// @media screen and (min-width: 375px) {
+// }
+
+// @media screen and (min-width: 425px) {
+// }
+
+// @media screen and (min-width: 768px) {
+// }
+// @media screen and (min-width: 1024px) {
+// }
+
+// @media screen and (min-width: 1440px) {
+// }
+
+// @media screen and (min-width: 2560px) {
+// }

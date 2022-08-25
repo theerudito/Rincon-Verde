@@ -1,0 +1,32 @@
+.Header {
+  display: flex;
+
+  .logo {
+    width: 100px;
+    height: 50px;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+
+  li {
+    background-color: #88c261;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: auto;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    &:hover {
+      background-color: #bfd133;
+      color: black;
+    }
+  }
+}

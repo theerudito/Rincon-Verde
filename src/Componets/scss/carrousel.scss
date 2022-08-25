@@ -1,0 +1,61 @@
+.contenedorCarrousel {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  .contenedorImage1 {
+    .image1 {
+      width: 100px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+
+  .contenedorImage2 {
+    .image2 {
+      width: 100px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+
+  .contenedorImage3 {
+    margin-left: -110px;
+    .image3 {
+      width: 100px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+
+  .contenedorImage4 {
+    margin-top: -214px;
+    margin-left: -0px;
+    .image4 {
+      width: 200px;
+      height: 410px;
+      object-fit: cover;
+    }
+  }
+
+  .contenedorImage5 {
+    margin-top: -5px;
+    .image5 {
+      width: 100px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+
+  .contenedorImage6 {
+    margin-top: -5px;
+    .image6 {
+      width: 210px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+}
