@@ -112,7 +112,7 @@ h3 {
     .florDerM {
       position: absolute;
       margin-left: 79.5%;
-      margin-top: 330px;
+      margin-top: 300px;
       width: 80px;
       z-index: -1;
     }
@@ -191,11 +191,63 @@ h3 {
 }
 
 .contenedorNosotros {
+  
+
+  @media screen and (max-width: 320px) {
+    margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 0px 15px;
+}
+
+@media screen and (min-width: 375px) {
   margin: auto;
   align-items: center;
   justify-content: center;
   display: grid;
   padding: 0px 15px;
+}
+
+@media screen and (min-width: 425px) {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 0px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 0px 15px;
+}
+@media screen and (min-width: 1024px) {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 0px 40px;
+}
+
+@media screen and (min-width: 1440px) {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 0px 40px;
+}
+
+@media screen and (min-width: 2560px) {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  padding: 0px 40px;
+}
+
 }
 
 .list {
