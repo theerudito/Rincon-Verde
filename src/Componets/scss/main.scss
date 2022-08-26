@@ -5,6 +5,13 @@ h3 {
 
 .logotipo {
   @media screen and (max-width: 320px) {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 
   @media screen and (min-width: 375px) {
@@ -27,11 +34,16 @@ h3 {
     display: flex;
   }
 
-  
-
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1024px) {
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 
   @media screen and (min-width: 1440px) {
@@ -43,6 +55,35 @@ h3 {
 
 .imageContainer {
   @media screen and (max-width: 320px) {
+    .florUpIz {
+      position: absolute;
+      width: 80px;
+      margin-left: auto;
+      margin-top: 60px;
+      z-index: -1;
+    }
+
+    .florMeIz {
+      position: absolute;
+      width: 80px;
+      z-index: -1;
+      margin-top: 1150px;
+    }
+
+    .florDerUp {
+      position: absolute;
+      margin-left: 72%;
+      margin-top: -150px;
+      width: 100px;
+      z-index: -1;
+    }
+    .florDerM {
+      position: absolute;
+      margin-left: 77.6%;
+      margin-top: 385px;
+      width: 80px;
+      z-index: -1;
+    }
   }
 
   @media screen and (min-width: 375px) {
@@ -58,20 +99,20 @@ h3 {
       position: absolute;
       width: 100px;
       z-index: -1;
-      margin-top: 1100px;
+      margin-top: 1000px;
     }
 
     .florDerUp {
       position: absolute;
-      margin-left: 72%;
-      margin-top: -150px;
+      margin-left: 73%;
+      margin-top: -155px;
       width: 100px;
       z-index: -1;
     }
     .florDerM {
       position: absolute;
-      margin-left: 77.6%;
-      margin-top: 370px;
+      margin-left: 78%;
+      margin-top: 300px;
       width: 80px;
       z-index: -1;
     }
@@ -159,6 +200,29 @@ h3 {
 
 .list {
   @media screen and (max-width: 320px) {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+
+    ul {
+      list-style: none;
+    }
+    li {
+      font-size: 12px;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url("../image/check.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-right: 5px;
+      }
+    }
   }
 
   @media screen and (min-width: 375px) {
@@ -247,6 +311,8 @@ h3 {
   }
 }
 
+
+
 .formulario {
   display: grid;
   margin: auto;
@@ -254,6 +320,58 @@ h3 {
   justify-content: center;
   grid-template-columns: auto auto;
 
+
+  @media screen and (max-width: 320px) {
+    input {
+      background-color: #d9d9d9;
+      border: none;
+      padding: 10px;
+      margin: 5px;
+      width: 150px;
+      height: 10px;
+      font-size: 18px;
+      color: black;
+  
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    textarea {
+      background-color: #d9d9d9;
+      border: none;
+      padding: 10px;
+      margin: 5px;
+      width: 150px;
+      height: 25px;
+      font-size: 18px;
+      color: black;
+  
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    button {
+      background-color: #bfd133;
+      display: flex;
+      margin: 0px auto;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      height: 30px;
+      width: 60px;
+      position: relative;
+      margin-bottom: 6px;
+      &:hover {
+        background-color: #7bbb50;
+      }
+    }
+}
+
+@media screen and (min-width: 375px) {
   input {
     background-color: #d9d9d9;
     border: none;
@@ -301,6 +419,165 @@ h3 {
       background-color: #7bbb50;
     }
   }
+}
+
+@media screen and (min-width: 425px) {
+  input {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 10px;
+    font-size: 18px;
+    color: black;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  textarea {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    color: black;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    background-color: #bfd133;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    position: relative;
+    margin-bottom: 6px;
+    &:hover {
+      background-color: #7bbb50;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  input {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 10px;
+    font-size: 18px;
+    color: black;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  textarea {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    color: black;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    background-color: #bfd133;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    position: relative;
+    margin-bottom: 6px;
+    &:hover {
+      background-color: #7bbb50;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  input {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 10px;
+    font-size: 18px;
+    color: black;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  textarea {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    color: black;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    background-color: #bfd133;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    position: relative;
+    margin-bottom: 6px;
+    &:hover {
+      background-color: #7bbb50;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+@media screen and (min-width: 2560px) {
+}
+
+
+  
 }
 
 // @media screen and (max-width: 320px) {

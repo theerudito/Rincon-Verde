@@ -2,6 +2,36 @@
   display: flex;
 
   @media screen and (max-width: 320px) {
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-left: 10px;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 5px;
+      margin-top: 15px;
+      margin-left: 10px;
+    }
+
+    li {
+      background-color: #88c261;
+      color: aliceblue;
+      border-radius: 5px;
+      padding: auto;
+      margin: auto;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 11px;
+      &:hover {
+        background-color: #bfd133;
+        color: black;
+      }
+    }
   }
 
   @media screen and (min-width: 375px) {

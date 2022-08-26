@@ -10,6 +10,58 @@
   overflow: hidden;
 
   @media screen and (max-width: 320px) {
+    .contenedorImage1 {
+      .image1 {
+        width: 70px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage2 {
+      .image2 {
+        width: 70px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage3 {
+      margin-left: -80px;
+      .image3 {
+        width: 70px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage4 {
+      margin-top: -214px;
+      margin-left: -0px;
+      .image4 {
+        width: 100px;
+        height: 410px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage5 {
+      margin-top: -5px;
+      .image5 {
+        width: 70px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage6 {
+      margin-top: -5px;
+      .image6 {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
   }
 
   @media screen and (min-width: 375px) {
