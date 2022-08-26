@@ -1,3 +1,8 @@
+h3 {
+  color: black;
+  margin-left: 15px;
+}
+
 .logotipo {
   @media screen and (max-width: 320px) {
   }
@@ -22,6 +27,8 @@
     display: flex;
   }
 
+  
+
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1024px) {
@@ -41,9 +48,9 @@
   @media screen and (min-width: 375px) {
     .florUpIz {
       position: absolute;
-      width: 100px;
+      width: 80px;
       margin-left: auto;
-      margin-top: 40px;
+      margin-top: 60px;
       z-index: -1;
     }
 
@@ -51,21 +58,21 @@
       position: absolute;
       width: 100px;
       z-index: -1;
-      margin-top: 1200px;
+      margin-top: 1100px;
     }
 
     .florDerUp {
       position: absolute;
       margin-left: 72%;
-      margin-top: -160px;
+      margin-top: -150px;
       width: 100px;
       z-index: -1;
     }
     .florDerM {
       position: absolute;
-      margin-left: 72%;
-      margin-top: 350px;
-      width: 100px;
+      margin-left: 77.6%;
+      margin-top: 370px;
+      width: 80px;
       z-index: -1;
     }
   }
@@ -88,14 +95,14 @@
 
     .florDerUp {
       position: absolute;
-      margin-left: 70%;
-      margin-top: -160px;
+      margin-left: 69%;
+      margin-top: -150px;
       width: 150px;
       z-index: -1;
     }
     .florDerM {
       position: absolute;
-      margin-left: 80%;
+      margin-left: 79.3%;
       margin-top: 250px;
       width: 100px;
       z-index: -1;
@@ -151,96 +158,93 @@
 }
 
 .list {
-
   @media screen and (max-width: 320px) {
-}
-
-@media screen and (min-width: 375px) {
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-  gap: 1px;
-
-  ul {
-    list-style: none;
   }
-  li {
-    font-size: 12px;
-    &::before {
-      content: "";
-      display: inline-block;
-      width: 15px;
-      height: 15px;
-      background-image: url("../image/check.svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      margin-right: 5px;
+
+  @media screen and (min-width: 375px) {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+
+    ul {
+      list-style: none;
+    }
+    li {
+      font-size: 12px;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url("../image/check.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-right: 5px;
+      }
     }
   }
-}
 
-@media screen and (min-width: 425px) {
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
+  @media screen and (min-width: 425px) {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 
-  ul {
-    list-style: none;
-  }
-  li {
-    &::before {
-      content: "";
-      display: inline-block;
-      width: 15px;
-      height: 15px;
-      background-image: url("../image/check.svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      margin-right: 5px;
+    ul {
+      list-style: none;
+    }
+    li {
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url("../image/check.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-right: 5px;
+      }
     }
   }
-}
 
-@media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1024px) {
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-
-  ul {
-    list-style: none;
+  @media screen and (min-width: 768px) {
   }
-  li {
-    font-size: 18px;
-    &::before {
-      content: "";
-      display: inline-block;
-      width: 15px;
-      height: 15px;
-      background-image: url("../image/check.svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      margin-right: 5px;
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    ul {
+      list-style: none;
+    }
+    li {
+      font-size: 18px;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url("../image/check.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-right: 5px;
+      }
     }
   }
-}
 
-@media screen and (min-width: 1440px) {
-}
+  @media screen and (min-width: 1440px) {
+  }
 
-@media screen and (min-width: 2560px) {
-}
-
-  
+  @media screen and (min-width: 2560px) {
+  }
 }
 
 .formulario {
