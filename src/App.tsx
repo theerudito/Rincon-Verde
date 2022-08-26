@@ -6,7 +6,7 @@ import florIzq from "../src//Componets/image/floriz.svg";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <header>
         <Header />
       </header>
