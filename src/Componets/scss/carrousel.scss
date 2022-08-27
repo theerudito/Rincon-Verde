@@ -16,7 +16,7 @@
       font-size: 40px;
       margin-left: 1px;
       color: black;
-      margin-top: -320px;
+      margin-top: 0px;
       user-select: none;
       &:hover {
         cursor: pointer;
@@ -28,7 +28,7 @@
       font-size: 40px;
       margin-left: 250px;
       color: black;
-      margin-top: 300px;
+      margin-top: 0px;
       user-select: none;
       &:hover {
         cursor: pointer;
@@ -94,9 +94,9 @@
     #left {
       position: absolute;
       font-size: 40px;
-      margin-left: 20px;
+      margin-left: 40px;
       color: black;
-      margin-top: -320px;
+      margin-top: -0px;
       user-select: none;
       &:hover {
         cursor: pointer;
@@ -106,9 +106,9 @@
     #right {
       position: absolute;
       font-size: 40px;
-      margin-left: 300px;
+      margin-left: 315px;
       color: black;
-      margin-top: 300px;
+      margin-top: 0px;
       user-select: none;
       &:hover {
         cursor: pointer;
