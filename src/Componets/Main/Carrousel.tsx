@@ -3,6 +3,8 @@ import React from "react";
 export const Carrousel = () => {
   return (
     <div className="contenedorCarrousel">
+      <i className="fa-solid fa-circle-left" id="left"></i>
+      <i className="fa-solid fa-circle-right" id="right"></i>
       <div className="contenedorImage1">
         <img
           src="https://placeimg.com/640/480/animals"
@@ -48,8 +50,6 @@ export const Carrousel = () => {
           className="image4"
         />
       </div>
-
-      
     </div>
   );
 };

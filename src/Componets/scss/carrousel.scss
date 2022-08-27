@@ -10,6 +10,32 @@
   overflow: hidden;
 
   @media screen and (max-width: 320px) {
+
+    #left {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 1px;
+      color: black;
+      margin-top: -320px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: gray;
+      }
+    }
+    #right {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 250px;
+      color: black;
+      margin-top: 300px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: gray;
+      }
+    }
+
     .contenedorImage1 {
       .image1 {
         width: 70px;
@@ -65,6 +91,33 @@
   }
 
   @media screen and (min-width: 375px) {
+    #left {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 20px;
+      color: black;
+      margin-top: -320px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: gray;
+      }
+    }
+    #right {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 300px;
+      color: black;
+      margin-top: 300px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: gray;
+      }
+    }
+
+
+
     .contenedorImage1 {
       .image1 {
         width: 70px;
@@ -120,6 +173,33 @@
   }
 
   @media screen and (min-width: 425px) {
+
+    #left {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 10px;
+      color: black;
+      margin-top: -10px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: gray;
+      }
+    }
+    #right {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 440px;
+      color: black;
+      margin-top: -10px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: gray;
+      }
+    }
+
+
     .contenedorImage1 {
       .image1 {
         width: 80px;
@@ -175,11 +255,35 @@
   }
 
   @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1024px) {
+
+    #left {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 110px;
+      color: gray;
+      margin-top: -10px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: #bfd133;
+      }
+    }
+    #right {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 640px;
+      color: gray;
+      margin-top: -10px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: #bfd133;
+      }
+    }
+
     .contenedorImage1 {
       .image1 {
-        width: 100px;
+        width: 80px;
         height: 200px;
         object-fit: cover;
       }
@@ -187,16 +291,16 @@
 
     .contenedorImage2 {
       .image2 {
-        width: 100px;
+        width: 80px;
         height: 200px;
         object-fit: cover;
       }
     }
 
     .contenedorImage3 {
-      margin-left: -110px;
+      margin-left: -90px;
       .image3 {
-        width: 100px;
+        width: 80px;
         height: 200px;
         object-fit: cover;
       }
@@ -206,7 +310,7 @@
       margin-top: -214px;
       margin-left: -0px;
       .image4 {
-        width: 200px;
+        width: 180px;
         height: 410px;
         object-fit: cover;
       }
@@ -215,7 +319,7 @@
     .contenedorImage5 {
       margin-top: -5px;
       .image5 {
-        width: 100px;
+        width: 80px;
         height: 200px;
         object-fit: cover;
       }
@@ -224,7 +328,86 @@
     .contenedorImage6 {
       margin-top: -5px;
       .image6 {
-        width: 210px;
+        width: 170px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    #left {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 250px;
+      color: gray;
+      margin-top: -10px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: #bfd133;
+      }
+    }
+    #right {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 1060px;
+      color: gray;
+      margin-top: -10px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: #bfd133;
+      }
+    }
+
+    .contenedorImage1 {
+      .image1 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage2 {
+      .image2 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage3 {
+      margin-left: -150px;
+      .image3 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage4 {
+      margin-top: -219px;
+      margin-left: 1px;
+      .image4 {
+        width: 260px;
+        height: 410px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage5 {
+      margin-top: -5px;
+      .image5 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage6 {
+      margin-top: -5px;
+      .image6 {
+        width: 290px;
         height: 200px;
         object-fit: cover;
       }
@@ -232,8 +415,162 @@
   }
 
   @media screen and (min-width: 1440px) {
+    #left {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 250px;
+      color: gray;
+      margin-top: -10px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: #bfd133;
+      }
+    }
+    #right {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 1060px;
+      color: gray;
+      margin-top: -10px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: #bfd133;
+      }
+    }
+
+    .contenedorImage1 {
+      .image1 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage2 {
+      .image2 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage3 {
+      margin-left: -150px;
+      .image3 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage4 {
+      margin-top: -219px;
+      margin-left: 1px;
+      .image4 {
+        width: 260px;
+        height: 410px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage5 {
+      margin-top: -5px;
+      .image5 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage6 {
+      margin-top: -5px;
+      .image6 {
+        width: 290px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
   }
 
   @media screen and (min-width: 2560px) {
+    #left {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 250px;
+      color: gray;
+      margin-top: -10px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: #bfd133;
+      }
+    }
+    #right {
+      position: absolute;
+      font-size: 40px;
+      margin-left: 1060px;
+      color: gray;
+      margin-top: -10px;
+      user-select: none;
+      &:hover {
+        cursor: pointer;
+        color: #bfd133;
+      }
+    }
+
+    .contenedorImage1 {
+      .image1 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage2 {
+      .image2 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage3 {
+      margin-left: -150px;
+      .image3 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage4 {
+      margin-top: -219px;
+      margin-left: 1px;
+      .image4 {
+        width: 260px;
+        height: 410px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage5 {
+      margin-top: -5px;
+      .image5 {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .contenedorImage6 {
+      margin-top: -5px;
+      .image6 {
+        width: 290px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
   }
 }
