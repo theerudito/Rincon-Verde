@@ -164,9 +164,57 @@
   }
 
   @media screen and (min-width: 1440px) {
+    .florIzAb {
+      position: relative;
+      margin-right: auto;
+      width: 300px;
+      margin-top: -182px;
+      z-index: -1;
+    }
+
+    .titleRight {
+      position: absolute;
+      margin-left:470px;
+      margin-top: 70px;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+
+    .florDerAb {
+      position: relative;
+      width: 300px;
+      margin-left: 779px;
+      margin-top: -230px;
+      z-index: -1;
+    }
     
   }
 
   @media screen and (min-width: 2560px) {
+    .florIzAb {
+      position: relative;
+      margin-right: auto;
+      width: 300px;
+      margin-top: -182px;
+      z-index: -1;
+    }
+
+    .titleRight {
+      position: absolute;
+      margin-left:470px;
+      margin-top: 70px;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+
+    .florDerAb {
+      position: relative;
+      width: 300px;
+      margin-left: 779px;
+      margin-top: -230px;
+      z-index: -1;
+    }
   }
 }

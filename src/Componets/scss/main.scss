@@ -54,9 +54,23 @@ h3 {
   }
 
   @media screen and (min-width: 1440px) {
+    width: 600px;
+    height: 200px;
+    margin-top: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 
   @media screen and (min-width: 2560px) {
+    width: 600px;
+    height: 200px;
+    margin-top: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 }
 
@@ -158,6 +172,35 @@ h3 {
   }
 
   @media screen and (min-width: 768px) {
+    .florUpIz {
+      position: absolute;
+      width: 100px;
+      margin-left: auto;
+      margin-top: 40px;
+      z-index: -1;
+    }
+
+    .florMeIz {
+      position: absolute;
+      width: 100px;
+      z-index: -1;
+      margin-top: 1020px;
+    }
+
+    .florDerUp {
+      position: absolute;
+      margin-left: 69%;
+      margin-top: -150px;
+      width: 150px;
+      z-index: -1;
+    }
+    .florDerM {
+      position: absolute;
+      margin-left: 79.3%;
+      margin-top: 250px;
+      width: 100px;
+      z-index: -1;
+    }
   }
   @media screen and (min-width: 1024px) {
     .florUpIz {

@@ -1,7 +1,7 @@
 .Header {
   display: flex;
 
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 320px) {
     background-color: aqua;
     .logo {
       width: 50px;
@@ -98,6 +98,34 @@
   }
 
   @media screen and (min-width: 768px) {
+    .logo {
+      width: 100px;
+      height: 50px;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 15px;
+      margin-top: 25px;
+      margin-left: 10px;
+    }
+
+    li {
+      background-color: #88c261;
+      color: black;
+      border-radius: 5px;
+      padding: auto;
+      margin: auto;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 16px;
+      &:hover {
+        background-color: #bfd133;
+      }
+    }
   }
   @media screen and (min-width: 1024px) {
     .logo {
@@ -131,8 +159,64 @@
   }
 
   @media screen and (min-width: 1440px) {
+    .logo {
+      width: 100px;
+      height: 50px;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 15px;
+      margin-top: 25px;
+      margin-left: 10px;
+    }
+
+    li {
+      background-color: #88c261;
+      color: black;
+      border-radius: 5px;
+      padding: auto;
+      margin: auto;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 18px;
+      &:hover {
+        background-color: #bfd133;
+      }
+    }
   }
 
   @media screen and (min-width: 2560px) {
+    .logo {
+      width: 100px;
+      height: 50px;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 15px;
+      margin-top: 25px;
+      margin-left: 10px;
+    }
+
+    li {
+      background-color: #88c261;
+      color: black;
+      border-radius: 5px;
+      padding: auto;
+      margin: auto;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 18px;
+      &:hover {
+        background-color: #bfd133;
+      }
+    }
   }
 }
