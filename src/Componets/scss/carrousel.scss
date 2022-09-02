@@ -10,7 +10,6 @@
   overflow: hidden;
 
   @media screen and (max-width: 320px) {
-
     #left {
       position: absolute;
       font-size: 40px;
@@ -94,29 +93,35 @@
     #left {
       position: absolute;
       font-size: 40px;
-      margin-left: 8px;
-      color: black;
+      margin-left: 15px;
+      color: #057139;
       margin-top: -0px;
       user-select: none;
+      background-color: white;
+      border-radius: 50%;
       &:hover {
         cursor: pointer;
-        color: gray;
+        color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
     #right {
       position: absolute;
       font-size: 40px;
-      margin-left: 350px;
-      color: black;
+      margin-left: 300px;
+      color: #057139;
       margin-top: 0px;
       user-select: none;
+      background-color: white;
+      border-radius: 50%;
       &:hover {
         cursor: pointer;
-        color: gray;
+        color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
-
-
 
     .contenedorImage1 {
       .image1 {
@@ -173,32 +178,38 @@
   }
 
   @media screen and (min-width: 425px) {
-
     #left {
       position: absolute;
       font-size: 40px;
-      margin-left: 10px;
-      color: black;
+      margin-left: 23px;
+      color: #057139;
       margin-top: -10px;
       user-select: none;
+      background-color: white;
+      border-radius: 50%;
       &:hover {
         cursor: pointer;
-        color: gray;
+        color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
     #right {
       position: absolute;
       font-size: 40px;
-      margin-left: 440px;
-      color: black;
+      margin-left: 420px;
+      color: #057139;
       margin-top: -10px;
       user-select: none;
+      background-color: white;
+      border-radius: 50%;
       &:hover {
         cursor: pointer;
-        color: gray;
+        color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
-
 
     .contenedorImage1 {
       .image1 {
@@ -255,7 +266,6 @@
   }
 
   @media screen and (min-width: 768px) {
-
     #left {
       position: absolute;
       font-size: 40px;
@@ -266,6 +276,8 @@
       &:hover {
         cursor: pointer;
         color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
     #right {
@@ -278,6 +290,8 @@
       &:hover {
         cursor: pointer;
         color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
 
@@ -345,6 +359,8 @@
       &:hover {
         cursor: pointer;
         color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
     #right {
@@ -357,6 +373,8 @@
       &:hover {
         cursor: pointer;
         color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
 
@@ -365,6 +383,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -373,6 +397,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -382,6 +412,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -392,6 +428,12 @@
         width: 260px;
         height: 410px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -401,6 +443,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -410,6 +458,12 @@
         width: 290px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
   }
@@ -425,6 +479,8 @@
       &:hover {
         cursor: pointer;
         color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
     #right {
@@ -437,6 +493,8 @@
       &:hover {
         cursor: pointer;
         color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
 
@@ -445,6 +503,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -453,6 +517,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -462,6 +532,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -472,6 +548,12 @@
         width: 260px;
         height: 410px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -481,6 +563,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -490,6 +578,12 @@
         width: 290px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
   }
@@ -505,6 +599,8 @@
       &:hover {
         cursor: pointer;
         color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
     #right {
@@ -517,6 +613,8 @@
       &:hover {
         cursor: pointer;
         color: #bfd133;
+        transform: scale(1.2);
+        transform-style: flat;
       }
     }
 
@@ -525,6 +623,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -533,6 +637,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -542,6 +652,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -552,6 +668,12 @@
         width: 260px;
         height: 410px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -561,6 +683,12 @@
         width: 140px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
 
@@ -570,6 +698,12 @@
         width: 290px;
         height: 200px;
         object-fit: cover;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transform-style: flat;
+          box-shadow: 1px 2px rgb(172, 153, 153);
+        }
       }
     }
   }

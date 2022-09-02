@@ -44,12 +44,15 @@ export const Main = () => {
       </div>
 
       <h3>Galeria</h3>
-      <Carrousel />
+      <div>
+        <Carrousel />
+      </div>
 
       <h3>Contacto</h3>
       <form className="formulario">
         <label>Nombre</label>
         <input type="text" />
+        
         <label>Whatsaap</label>
         <input type="text" />
         <label>Email</label>

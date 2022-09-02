@@ -10,10 +10,22 @@ export const Footer = () => {
     <div>
       <h3 className="titleSocilaMedia">Nuestras Redes</h3>
       <div className="containerSocialMedia">
-        <img src={instagram} alt="redes" className="logoSocialMedia" />
-        <img src={whatssap} alt="redes" className="logoSocialMedia" />
-        <img src={facebook} alt="redes" className="logoSocialMedia" />
-        <img src={gmail} alt="redes" className="logoSocialMedia" />
+        <a href="https://www.instagram.com/quinta_rinconverde/" target="black">
+          <img src={instagram} alt="redes" className="logoSocialMedia" />
+        </a>
+
+        <a
+          href="https://api.whatsapp.com/send/?phone=593993803604&text&type=phone_number&app_absent=0"
+          target="black"
+        >
+          <img src={whatssap} alt="redes" className="logoSocialMedia" />
+        </a>
+        <a href="https://www.facebook.com/QuintaRinconVerde" target="black">
+          <img src={facebook} alt="redes" className="logoSocialMedia" />
+        </a>
+        <a href="mailto:rinconverdetoachi@gmail.com" target="black">
+          <img src={gmail} alt="redes" className="logoSocialMedia" />
+        </a>
       </div>
 
       <div className="containerRight">

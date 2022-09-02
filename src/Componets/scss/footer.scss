@@ -23,6 +23,9 @@
       rotate: 10deg;
     }
   }
+  a {
+    margin: 0 10px;
+  }
 }
 
 .containerRight {
@@ -147,7 +150,7 @@
 
     .titleRight {
       position: absolute;
-      margin-left:470px;
+      margin-left: 470px;
       margin-top: 70px;
       align-items: center;
       justify-content: center;
@@ -174,7 +177,7 @@
 
     .titleRight {
       position: absolute;
-      margin-left:470px;
+      margin-left: 470px;
       margin-top: 70px;
       align-items: center;
       justify-content: center;
@@ -188,7 +191,6 @@
       margin-top: -230px;
       z-index: -1;
     }
-    
   }
 
   @media screen and (min-width: 2560px) {
@@ -202,7 +204,7 @@
 
     .titleRight {
       position: absolute;
-      margin-left:470px;
+      margin-left: 470px;
       margin-top: 70px;
       align-items: center;
       justify-content: center;
