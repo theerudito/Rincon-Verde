@@ -4,8 +4,35 @@ import florIzq from "../image/floArribaIzIz.svg";
 import florMIzq from "../image/floMedIz.svg";
 import florDerUp from "../image/florArri.svg";
 import florDerM from "../image/floMediDe.svg";
+import emailjs from "emailjs-com";
+import { useRef } from "react";
 
 export const Main = () => {
+  const formRef = useRef(null);
+
+  const sendEmail = (e: any) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_y7p0vga",
+        "template_yeehdte",
+        e.target,
+        "_oJVZlk-BbkB6rr33"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          if (result.text === "OK") {
+            alert("Mensaje enviado");
+          }
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <div>
       <div className="imageContainer">
@@ -16,7 +43,7 @@ export const Main = () => {
         <img src={florDerM} alt="img" className="florDerM" />
       </div>
 
-      <h3>Nosotros</h3>
+      <h3 id="nosotros">Nosotros</h3>
       <div className="contenedorNosotros">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
@@ -26,7 +53,7 @@ export const Main = () => {
         </p>
       </div>
 
-      <h3>Servicios</h3>
+      <h3 id="servicios">Servicios</h3>
       <div className="list">
         <ul>
           <li>Hospedaje</li>
@@ -43,22 +70,21 @@ export const Main = () => {
         </ul>
       </div>
 
-      <h3>Galeria</h3>
+      <h3 id="galeria">Galeria</h3>
       <div>
         <Carrousel />
       </div>
 
-      <h3>Contacto</h3>
-      <form className="formulario">
+      <h3 id="contacto">Contacto</h3>
+      <form className="formulario" ref={formRef} onSubmit={sendEmail}>
         <label>Nombre</label>
-        <input type="text" />
-        
+        <input type="text" name="nombre" />
         <label>Whatsaap</label>
-        <input type="text" />
+        <input type="text" name="whatssap" />
         <label>Email</label>
-        <input type="text" />
+        <input type="text" name="email" />
         <label>Mensaje</label>
-        <textarea></textarea>
+        <textarea name="mensaje"></textarea>
 
         <button type="submit">Enviar</button>
       </form>
